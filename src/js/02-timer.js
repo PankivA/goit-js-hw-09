@@ -19,7 +19,7 @@ const options = {
   defaultDate: new Date(),
   minuteIncrement: 1,
   onClose(selectedDates) {
-      currentDifferenceDate(selectedDates[0]);
+    calcDateDifference(selectedDates[0]);
     },
 };
 
