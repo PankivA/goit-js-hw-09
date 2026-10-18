@@ -90,7 +90,7 @@ const markup = makeMarkup(images);
 list.innerHTML = markup;
 
 
-new SimpleLightbox('.gallery-link', {
+new SimpleLightbox('.gallery-item a', {
     captions: true,
     captionsData: 'alt',
     captionPosition: 'bottom',
